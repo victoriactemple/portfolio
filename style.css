@@ -1,3 +1,37 @@
+
+.page-footer{
+    color: #593824
+    text-align: center;
+    background-color: rgba(247, 235, 213, 0.56);
+  }
+
+
+nav{
+    background-color: rgba(247, 235, 213, 0.56);
+}
+
+
+/* .make-room{
+    height: 100px;
+}
+
 main{
-    height: 1000px;
+    height: 700px;
+} */
+
+
+.slider .slides {
+    background-color: transparent;
+    margin: 0;
+    height: 400px;
+}
+
+img{
+    max-wdith: 100%
+}
+.slider .slides li img {
+   
+    background-position: center;
+    background-size:100% auto;
+    background-repeat: no-repeat;
 }
