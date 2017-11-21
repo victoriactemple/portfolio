@@ -30,7 +30,7 @@
                      <ul class="right black-text">
                        <li><a href="" class="black-text">about</a></li>
                        <li><a href="" class="black-text">portfolio</a></li>
-                       <li><a href="" class="black-text">contact</a></li>
+                       <li><a href="#modal1" class="black-text modal-trigger">contact</a></li>
                      </ul>
                    </div>
                </div>
@@ -39,13 +39,30 @@
         </nav>
        </div> 
 
-       <header>HELLO I'M A HEADER</header>
+
+  <!-- Modal Trigger -->
+  <!-- <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a> -->
+  
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4>Contact Info</h4>
+        <p>email: victoriactemple@gmail.com </p>
+        <p>cell: 678-524-9133 </p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+      </div>
+    </div>
+
+
+       <!-- <header>HELLO I'M A HEADER</header> -->
 
 
 <main>
 
 
-  <div class="row">
+  <div class="row main-container">
 
   <!-- Project 4 GA State Park Highlight -->
  
@@ -53,7 +70,7 @@
       <div class="card">
         <div class="card-image">
           <img src="images/ga_state_park_traillist.png">
-          <span class="card-title">Project 4</span>
+          <!-- <span class="card-title">Project 4</span> -->
         </div>
         <div class="card-content">
           <p>Before attending GA, my finance and I hiked every weekend. We've been to dozens of parks in every pockets of Georgia. One of the more frustrating things planning for a hike is researching up-to-date and honest information about the park and its trails. When you do find information, it's usually attached to a website with design and information from the early aughts. Enter Georgia State Park Highlights. The app was built using React on Rails and provides a short list of the top best state parks in Georgia, with each park containing a list of user submitted trails and comments. Through using the Open Weather Map API the user can see the park's up-to-date weather on the specific park page.</p>
@@ -74,7 +91,7 @@
       <div class="card">
         <div class="card-image">
           <img src="images/pie_screenshot.png">
-          <span class="card-title">Project 3 </span>
+          <!-- <span class="card-title">Project 3 </span> -->
         </div>
         <div class="card-content">
           <p>We're selling pies here, so we have a users section for the users to create an account and a pies section where the users, signed in or not, can see all the pies on sale. They can read their descriptions and see their price and even write a review. One of my favorite little attributes to the site is on the individual pie page -- it had a toggle that when clicked will reveal a review form. After completing a title and description, the review will pop up on the screen right under the pie. Once the user hits hide, then the form will hide again.</p>
@@ -118,7 +135,7 @@
       <div class="card">
         <div class="card-image">
           <img src="images/jeopardy.png">
-          <span class="card-title">Project 1</span>
+          <!-- <span class="card-title">Project 1</span> -->
         </div>
         <div class="card-content">
           <p>Once a user has selected a button, a formerly hidden div appears with the answer and four questions. The user can click on any of the questions. If the user is correct, an alert is displayd and points are rewarded. If the user is incorrect, an alert is displayed and points are deducted.</p>
