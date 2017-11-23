@@ -11,14 +11,6 @@ nav{
 }
 
 
-/* .make-room{
-    height: 100px;
-} */
-
-main{
-  padding-top: 50px;
-} 
-
 
 .slider .slides {
     background-color: transparent;
@@ -35,3 +27,14 @@ img{
     background-size:100% auto;
     background-repeat: no-repeat;
 }
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    padding-top: 50px;
+    flex: 1 0 auto;
+  }
