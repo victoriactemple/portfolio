@@ -15,7 +15,7 @@ body {
   }
 
 .page-footer{
-    color: #593824;
+    /* color: #593824; */
     text-align: center;
     background-color: rgba(247, 235, 213, 0.56);
   }
@@ -75,7 +75,15 @@ header{
     /* float: right; */
 }
 
+.img-circle{
+    border-radius: 50%;
+}
 
+
+.about{
+    width: 80%;
+    
+}
 
 
 /* .slider .slides {
