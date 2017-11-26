@@ -25,10 +25,10 @@ body {
 nav{
     background-color: #222;
     color: #FFF;
-    text-align: center;
+    /* text-align: center; */
 }
 
-nav ul{
+nav ul {
     text-align: center;
     padding-left: 0;
     text-transform: uppercase;
@@ -38,13 +38,11 @@ nav ul{
 ul, menu {
     text-align: center;
     display: block;
-    list-style-type: disc;
+    /* list-style-type: disc; */
     background-color: #222;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    -webkit-padding-start: 40px;
+}
+.menu-item{
+    text-align:center;
 }
 
 header{
@@ -76,6 +74,15 @@ header{
     /* float: right; */
 }
 
+.about{
+    border-top: none;
+    padding-bottom: 10%;
+    padding-top: 7%;
+    margin-top: 2px;
+    width: 80%;
+    margin: 0 auto;
+}
+
 .img-circle{
     border-radius: 50%;
 }
@@ -92,6 +99,16 @@ header{
     margin-top: 20px;
     cursor: pointer;
 }
+
+.contact-container{
+    border-top: none;
+    padding-bottom: 10%;
+    padding-top: 5%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
 
 
 /* .resume-button{
