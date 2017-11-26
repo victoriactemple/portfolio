@@ -2,6 +2,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    background-color: #ffffff;
   }
 
   main {
@@ -17,7 +18,7 @@ body {
 .page-footer{
     /* color: #593824; */
     text-align: center;
-    background-color: rgba(247, 235, 213, 0.56);
+    background-color: #222
   }
 
 
@@ -82,8 +83,23 @@ header{
 
 .about{
     width: 80%;
-    
+
 }
+
+.resume-div{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+/* .resume-button{
+    border-radius: 2px;
+    a{
+        font-color: black;
+    }
+} */
 
 
 /* .slider .slides {
