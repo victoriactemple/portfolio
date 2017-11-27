@@ -14,14 +14,36 @@ body {
   .technologies{
       font-family: 'Maven Pro', sans-serif;
       line-height: 1.5em;
-      line-width: 1.5em;
-      color: #eb8d64;
+      font-weight: bold;
+      color: maroon;
+
   }
+
+  #project-name{
+    font-family: 'Questrial', sans-serif;
+    font-weight: bold;
+    line-height: 1.5em;
+    /* font-family: 'Didact Gothic', sans-serif; */
+    
+    text-decoration: underline;
+  }
+
   .project-blurb {
     /* font-family: 'Cabin', sans-serif; */
      /* font-family: 'Quicksand', sans-serif; */
      font-family: 'Questrial', sans-serif; 
   }
+
+  .project-link {
+      font-family: 'Questrial', sans-serif;
+  }
+  
+  .link {
+        color: #eeb136;
+    
+  }
+
+
 
 .page-footer{
     /* color: #593824; */
@@ -120,12 +142,11 @@ header{
 
 
 
-/* .resume-button{
-    border-radius: 2px;
-    a{
-        font-color: black;
-    }
-} */
+.resume-button{
+ color: black;
+   background-color: white;
+}
+
 
 
 /* .slider .slides {
