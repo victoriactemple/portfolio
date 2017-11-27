@@ -43,13 +43,17 @@ body {
 
   .project-link {
       font-family: 'Questrial', sans-serif;
+      font-size: 15px;
   }
   
   .link {
-        /* color: #eeb136; */
-      color: black;
-    
+
+        color: #eeb136;
+        font-weight: bold;
+      /* color: black; */
   }
+
+
 
 
 
