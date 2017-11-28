@@ -18,7 +18,6 @@ body {
       line-height: 1.5em;
       font-weight: bold;
       color: rgb(138, 24, 4);
-
   }
 
   #project-name{
@@ -46,7 +45,6 @@ body {
   }
   
   .link {
-
         color: #eeb136;
         font-weight: bold;
         text-decoration: underline;
@@ -61,6 +59,10 @@ body {
     /* color: #593824; */
     text-align: center;
     background-color: #222
+  }
+  
+  .social-icons{
+      text-align: center;
   }
 
   /* .github{
