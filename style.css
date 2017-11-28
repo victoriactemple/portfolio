@@ -63,6 +63,22 @@ body {
     background-color: #222
   }
 
+  /* .github{
+      fill: white;
+      /* background-color: white; */
+  /* } */ 
+
+.github:hover{
+    border: solid #ffffff;
+    background-color: #ffffff;
+}
+
+.linkedin:hover{
+    border: solid #ffffff;
+    background-color: #ffffff;
+}
+
+
 
 nav{
     background-color: #222;
