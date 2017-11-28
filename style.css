@@ -26,8 +26,7 @@ body {
     font-weight: bold;
     line-height: 1.5em;
     /* font-family: 'Didact Gothic', sans-serif; */
-    
-    text-decoration: underline;
+
   }
 
   .project-blurb {
@@ -50,6 +49,7 @@ body {
 
         color: #eeb136;
         font-weight: bold;
+        text-decoration: underline;
       /* color: black; */
   }
 
