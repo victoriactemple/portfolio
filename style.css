@@ -58,17 +58,23 @@ body {
 .page-footer{
     /* color: #593824; */
     text-align: center;
-    background-color: #222
+    /* background-color: #222 */
+    background-color: black;
   }
   
   .social-icons{
       text-align: center;
   }
 
+  .svg{
+    background-color: #ffffff;
+  }
+
 
 .github:hover{
     border: solid #ffffff;
     background-color: #ffffff;
+    /* fill: orange; */
 }
 
 .linkedin:hover{
@@ -191,24 +197,5 @@ header {
 background-color: white; */
 
 }
-
-
-
-/* .slider .slides {
-    background-color: transparent;
-    margin: 0;
-    height: 400px;
-} */
-/* 
-img{
-    max-wdith: 100%
-}
-.slider .slides li img {
-   
-    background-position: center;
-    background-size:100% auto;
-    background-repeat: no-repeat;
-} */
-
 
   
